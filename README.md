@@ -1,1 +1,3 @@
-# Proyecto Creado en react que consulta una api sobre los personajes de rick y morty
+# Proyecto Rick y Morty
+
+Creado en react, consulta una api publica y muestra informacion acerca de los personajes de la serie
