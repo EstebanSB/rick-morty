@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'Rick and Morty Font';
+  src: url('./fonts/rick_font.ttf') format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+  font-family: "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -9,7 +14,7 @@ body {
 .title {
   color: #738f93;
   font-size: 40px;
-  font-family: fantasy, sans-serif;
+  font-family: 'Rick and Morty Font';
   margin-bottom: 0;
   font-weight: 300;
 }
