@@ -8,7 +8,8 @@ export default function Characters(props) {
   return (
     <div className="characters">
       <h1 className='title'>Personajes</h1>
-      <span className="back-home" onClick={resetCharacters}>Volver al Inicio</span> 
+      <br/>
+      <button onClick={resetCharacters} className='btn-search'>Volver al Inicio</button>
       <div className="container-characters">
         {characters.map((character, index) => (
           <div className="character-container" key={ index } >
@@ -40,7 +41,7 @@ export default function Characters(props) {
           </div>
         ))}
       </div>
-      <span className="back-home" onClick={resetCharacters}>Volver al Inicio</span>
+      <button onClick={resetCharacters} className='btn-search'>Volver al Inicio</button>
     </div>
   )
 }
